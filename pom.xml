@@ -61,6 +61,7 @@
         <module>flyway-commandline-largetest</module>
         <module>flyway-ant</module>
         <module>flyway-ant-largetest</module>
+        <module>flyway-gradle-plugin</module>
     </modules>
 
     <distributionManagement>
@@ -240,6 +241,16 @@
                 <groupId>org.apache.ant</groupId>
                 <artifactId>ant</artifactId>
                 <version>1.8.2</version>
+            </dependency>
+            <dependency>
+                <groupId>org.codehaus.groovy</groupId>
+                <artifactId>groovy-all</artifactId>
+                <version>2.0.4</version>
+            </dependency>
+            <dependency>
+                <groupId>org.gradle.api</groupId>
+                <artifactId>gradle-core</artifactId>
+                <version>1.2</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
